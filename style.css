@@ -180,7 +180,7 @@ hr{
 footer {
   width: 100%;
   height: 40vh;
-  background: var(--main-color);
+  /*background: var(--main-color);*/
 background:url('img/director.jpg');
   background-size:100% 100%;
 background-repeat:no-repeat;
