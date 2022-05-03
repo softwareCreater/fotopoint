@@ -70,7 +70,7 @@ h1 {
 }
 
 .main_header_left {
-  
+  margin-top:-5rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
