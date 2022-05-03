@@ -257,7 +257,7 @@ li a::after{
       text-align: center;
   }
   .about_left figure img{
-      width: 90vw;
+      width: 85vw;
   }
   .services{
       display: flex;
