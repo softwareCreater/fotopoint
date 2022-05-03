@@ -246,7 +246,8 @@ li a::after{
     height: 100vh;
   }
 .main_menu{
-align-items: none;
+display: block;
+}
   .main_header_left {
     height: auto;
     margin-top: 3rem;
