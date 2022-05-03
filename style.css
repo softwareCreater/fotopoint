@@ -248,7 +248,7 @@ li a::after{
   }
   .main_header_left {
     height: auto;
-    margin-top: 3rem;
+    margin-top: -5rem;
   }
 
   h1 {
