@@ -70,7 +70,7 @@ h1 {
 }
 
 .main_header_left {
-  height: 50rem;
+  
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -113,7 +113,7 @@ p{
   background-color: #f1f1f1;
 }
 .main_header_right {
-  height: 50rem;
+  
   /* background-color: var(--main-bg); */
   padding: 2rem 2rem;
   position: relative;
