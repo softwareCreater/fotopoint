@@ -36,12 +36,6 @@ h1 {
 .main_menu {
   background: #f1f1f1;
   padding-top: 5rem;
-  /* margin-top: 4rem; */
-  /* background: url('/img/manage.jp'); */
-  /* width: 100vw; */
-  /* height: 100vh; */
-  /* background-repeat: no-repeat; */
-  /* background-size: 100% 100%; */
 }
 
 .navbar {
@@ -68,6 +62,11 @@ h1 {
 }
 .navbar li a:hover {
   color: var(--main-color);
+}
+.main_menu{
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .main_header_left {
@@ -121,8 +120,8 @@ p{
   top: 4rem;
 }
 .main_header_right figure img {
-  border-radius: 2rem 4rem;
-  filter: drop-shadow(0 0.2rem 0.3rem black);
+  /* border-radius: 2rem 4rem; */
+  /* filter: drop-shadow(0 0.2rem 0.3rem black); */
 }
 
 
@@ -243,10 +242,14 @@ li a::after{
 /* ****************responsive code ********************* */
 
 @media (max-width: 768px) {
+  .main_menu{
+    height: 100vh;
+  }
   .main_header_left {
     height: auto;
     margin-top: 3rem;
   }
+
   h1 {
     font-size: 3rem;
   }
@@ -255,8 +258,15 @@ li a::after{
     top: -3rem;
   }
   .main_header_right {
-    top: 2rem;
+    top: -1.5rem;
+    left: 0;
+    padding: 0;
     height: auto;
+  }
+  .main_header_right .director-pic{
+    height: 60vh;  
+    width: 100%;
+    border-radius: .2rem;
   }
   a{
       text-decoration: none;
@@ -282,6 +292,10 @@ li a::after{
       align-items: center;
       /* background-color: #0097e6; */
   }
+
+.main_header_rights{
+  margin-top: 5rem;
+}
   .ul-data{
       gap: .2rem;
   }
